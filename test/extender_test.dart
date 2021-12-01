@@ -1,4 +1,3 @@
-
 import 'package:test/test.dart';
 import 'package:rational/rational.dart';
 import 'package:extender/extender.dart';

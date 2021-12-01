@@ -1,4 +1,3 @@
-
 library extender;
 
 export 'src/extender_base.dart';
