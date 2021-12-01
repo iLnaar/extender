@@ -1,7 +1,10 @@
 import 'package:rational/rational.dart';
 
-Rational rationalInfinity() => Rational.fromInt(9223372036854775807);
-Rational rationalNegativeInfinity() => Rational.fromInt(-9223372036854775808);
+final _maxBigInt = 9223372036854775807;
+final _minBigInt = -9223372036854775808;
+
+Rational rationalInfinity() => Rational.fromInt(_maxBigInt);
+Rational rationalNegativeInfinity() => Rational.fromInt(_minBigInt);
 
 ///
 /// Rational extension
