@@ -1,3 +1,4 @@
+import 'package:decimal/decimal.dart';
 import 'package:rational/rational.dart';
 
 final _maxBigInt = 9223372036854775807;
@@ -9,4 +10,6 @@ Rational rationalNegativeInfinity() => Rational.fromInt(_minBigInt);
 ///
 /// Rational extension
 ///
-extension RationalExt on Rational {}
+extension RationalExt on Rational {
+  Decimal toDecimalM() => toDecimal(scaleOnInfinitePrecision: _maxBigInt);
+}
