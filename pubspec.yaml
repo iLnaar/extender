@@ -12,4 +12,5 @@ dev_dependencies:
 
 dependencies:
   decimal: ^2.0.0
+  quiver: ^3.0.1+1
   rational: ^2.0.0
