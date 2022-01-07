@@ -1,7 +1,10 @@
+import 'dart:math';
+
 
 enum RoundMode { floor, round }
 
 final debugMode = _debugMode();
+final random = Random();
 
 const maxBigInt = 9223372036854775807;
 const minBigInt = -9223372036854775808;
