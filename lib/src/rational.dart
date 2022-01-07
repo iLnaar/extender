@@ -84,6 +84,11 @@ extension RationalExt on Rational {
   ///
   ///
   ///
+  Decimal toFloorDecimal(int digits) => toDecimalE().floor(scale: digits);
+
+  ///
+  ///
+  ///
   String toStringAsFixed(int fractionDigits) =>
       toDecimalE().toStringAsFixed(fractionDigits);
 
