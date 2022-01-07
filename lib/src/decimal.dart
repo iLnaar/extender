@@ -71,6 +71,17 @@ Decimal? decimalFromMapEntry(
 ///
 extension DetimalExt on Decimal {
   ///
+  ///
+  ///
+  bool get isZero => this == Decimal.zero;
+
+  ///
+  ///
+  ///
+  bool get isNotZero => this != Decimal.zero;
+
+
+  ///
   /// This is modified method [Decimal.toStringAsFixed()].
   ///
   /// It differs in that instead of rounding it produces truncation.
