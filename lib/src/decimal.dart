@@ -67,6 +67,17 @@ Decimal? decimalFromMapEntry(
       nullAllowed: nullAllowed);
 
 ///
+///
+///
+Decimal decimalRandom(Decimal start, Decimal end) {
+  final doubleStart = start.toDouble();
+  final doubleRand = random.nextDouble()
+      * (end.toDouble() - doubleStart)
+      + doubleStart;
+  return doubleRand.toDecimal();
+}
+
+///
 /// Decimal extension
 ///
 extension DetimalExt on Decimal {
