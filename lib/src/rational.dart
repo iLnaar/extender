@@ -65,6 +65,15 @@ Rational? rationalFromMapEntry(
 /// Rational extension
 ///
 extension RationalExt on Rational {
+  ///
+  ///
+  ///
+  bool get isZero => this == Rational.zero;
+
+  ///
+  ///
+  /// 
+  bool get isNotZero => this != Rational.zero;
 
   ///
   ///
