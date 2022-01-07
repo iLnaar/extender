@@ -66,8 +66,6 @@ double? doubleFromDynamicE(
       'one of the allowable ones: $allowableValues');
 }
 
-
-
 ///
 /// Parse double from Map entry with additional features.
 ///
@@ -94,7 +92,6 @@ double? doubleFromMapEntry(
       defaultValue: defaultValue,
       allowableValues: allowableValues,
       nullAllowed: nullAllowed);
-
 
 ///
 /// double extension
