@@ -1,6 +1,7 @@
 import 'dart:math';
 
 
+enum CycleAction { nothing, cont, brk }
 enum RoundMode { floor, round }
 
 final debugMode = _debugMode();
