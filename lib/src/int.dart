@@ -39,8 +39,6 @@ int? intFromDynamicE(
       'one of the allowable ones: $allowableValues');
 }
 
-
-
 ///
 ///
 ///
