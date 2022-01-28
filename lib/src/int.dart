@@ -55,6 +55,18 @@ int? intFromMapEntry(
       allowableValues: allowableValues,
       nullAllowed: nullAllowed);
 
+///
+/// Generates a list of random int values in a range [0; max). You can enable or
+/// disable duplicate values.
+///
+List<int> randomIntList(int max, [bool allowReps = true]) {
+  final list = <int>[];
+  while(list.length < max) {
+    final rand = random.nextInt(max);
+    if (allowReps || !list.contains(rand)) list.add(rand);
+  }
+  return list;
+}
 
 ///
 /// int extension
