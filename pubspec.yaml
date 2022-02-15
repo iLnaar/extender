@@ -11,6 +11,6 @@ dev_dependencies:
   test: ^1.16.0
 
 dependencies:
-  decimal: ^2.0.0
+  decimal: ^2.1.0
   quiver: ^3.0.1+1
-  rational: ^2.0.0
+  rational: ^2.1.0
